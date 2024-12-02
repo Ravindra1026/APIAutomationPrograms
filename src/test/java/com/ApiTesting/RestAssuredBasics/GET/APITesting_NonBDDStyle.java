@@ -16,4 +16,13 @@ public class APITesting_NonBDDStyle {
         r.when().log().all().get();
         r.then().log().all().statusCode(200);
     }
+
+    @Description("TC2 - NonBDDStyleGET - Negative TestCase")
+    @Test
+    public void test_NonBDDStyleGET_Negative(){
+        r.baseUri("https://api.zippopotam.us");
+        r.basePath("/IN/-12");
+        r.when().log().all().get();
+        r.then().log().all().statusCode(404);
+    }
 }
