@@ -1,5 +1,6 @@
 package com.ApiTesting.RestAssuredBasics.POST;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class APITesting001_NonBDDStyle {
 
-
+            @Description( "Verify the post method ")
             @Test
     public void test_nonBdd_POST(){
         String payload = "{\n" +
