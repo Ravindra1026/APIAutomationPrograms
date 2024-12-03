@@ -21,7 +21,7 @@ public class APITesting_NonBDDStyle {
     @Test
     public void test_NonBDDStyleGET_Negative(){
         r.baseUri("https://api.zippopotam.us");
-        r.basePath("/IN/-12");
+        r.basePath("/IN/-1");
         r.when().log().all().get();
         r.then().log().all().statusCode(404);
     }

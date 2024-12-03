@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4005d34f-d5f8-465a-b005-b4d581894cc1" name="Changes" comment="Non Bdd updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/PATCH/APITestingPatch.java" afterDir="false" />
+    <list default="true" id="4005d34f-d5f8-465a-b005-b4d581894cc1" name="Changes" comment="Patch updated">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/Integration/ApiIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/POST/APITesting001_NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/POST/APITesting001_NonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_BDDStyleGET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_BDDStyleGET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_NonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/PATCH/APITestingPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/PATCH/APITestingPatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -64,30 +65,14 @@
     "TestNG.APITesting_NonBDDStyle.executor": "Run",
     "TestNG.APITesting_NonBDDStyle.test_NonBDDStyleGET_Negative.executor": "Run",
     "TestNG.APITesting_NonBDDStyle.test_NonBDDStyleGET_Positive.executor": "Run",
+    "TestNG.ApiIntegration.executor": "Run",
     "TestNG.C:/Users/r.singh/IdeaProjects/APIAutomationPrograms/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.APITestingPatch.test_put_non_Bdd">
-    <configuration name="APITesting001_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ApiTesting.RestAssuredBasics.POST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ApiTesting.RestAssuredBasics.POST" />
-      <option name="MAIN_CLASS_NAME" value="com.ApiTesting.RestAssuredBasics.POST.APITesting001_NonBDDStyle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ApiIntegration">
     <configuration name="APITestingPatch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
@@ -123,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITesting_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITesting_NonBDDStyle.test_NonBDDStyleGET_Negative" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
@@ -133,6 +118,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ApiTesting.RestAssuredBasics.GET" />
       <option name="MAIN_CLASS_NAME" value="com.ApiTesting.RestAssuredBasics.GET.APITesting_NonBDDStyle" />
+      <option name="METHOD_NAME" value="test_NonBDDStyleGET_Negative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ApiTesting.Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ApiTesting.Integration" />
+      <option name="MAIN_CLASS_NAME" value="com.ApiTesting.Integration.ApiIntegration" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -140,18 +143,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITesting_NonBDDStyle.test_NonBDDStyleGET_Positive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/r.singh/IdeaProjects/APIAutomationPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ApiTesting.RestAssuredBasics.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ApiTesting.RestAssuredBasics.GET" />
-      <option name="MAIN_CLASS_NAME" value="com.ApiTesting.RestAssuredBasics.GET.APITesting_NonBDDStyle" />
-      <option name="METHOD_NAME" value="test_NonBDDStyleGET_Positive" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ApiIntegration" />
+        <item itemvalue="TestNG.APITesting_NonBDDStyle.test_NonBDDStyleGET_Negative" />
+        <item itemvalue="TestNG.C:/Users/r.singh/IdeaProjects/APIAutomationPrograms/testng.xml" />
         <item itemvalue="TestNG.APITestingPatch.test_put_non_Bdd" />
         <item itemvalue="TestNG.APITestingPatch" />
-        <item itemvalue="TestNG.APITesting001_NonBDDStyle" />
-        <item itemvalue="TestNG.APITesting_NonBDDStyle.test_NonBDDStyleGET_Positive" />
-        <item itemvalue="TestNG.APITesting_NonBDDStyle" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +188,36 @@
       <option name="project" value="LOCAL" />
       <updated>1733129883896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Patch updated">
+      <option name="closed" value="true" />
+      <created>1733144500254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733144500254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Read me file updated" />
     <MESSAGE value="Non Bdd updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Non Bdd updated" />
+    <MESSAGE value="Patch updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_NonBDDStyle.java</url>
+          <line>21</line>
+          <properties class="com.ApiTesting.RestAssuredBasics.GET.APITesting_NonBDDStyle" method="test_NonBDDStyleGET_Negative">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

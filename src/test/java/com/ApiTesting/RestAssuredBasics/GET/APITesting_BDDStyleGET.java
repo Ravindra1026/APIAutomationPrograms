@@ -45,6 +45,6 @@ public class APITesting_BDDStyleGET {
                 .get()
                 .then()
                 .log().all()
-                .statusCode(200);
+                .statusCode(404);
     }
 }
