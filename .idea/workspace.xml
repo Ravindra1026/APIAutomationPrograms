@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4005d34f-d5f8-465a-b005-b4d581894cc1" name="Changes" comment="Patch updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/Integration/ApiIntegration.java" afterDir="false" />
+    <list default="true" id="4005d34f-d5f8-465a-b005-b4d581894cc1" name="Changes" comment="Integration updated">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagment/APITesting_001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagment/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagment/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagment/BookingResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_BDDStyleGET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_BDDStyleGET.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/GET/APITesting_NonBDDStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/PATCH/APITestingPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ApiTesting/RestAssuredBasics/PATCH/APITestingPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "TestNG.APITesting001_NonBDDStyle.executor": "Run",
     "TestNG.APITestingPatch.executor": "Run",
     "TestNG.APITestingPatch.test_put_non_Bdd.executor": "Run",
+    "TestNG.APITesting_001.executor": "Run",
     "TestNG.APITesting_BDDStyleGET.executor": "Run",
     "TestNG.APITesting_BDDStyleGET.test_GET_Req_NEGITVIE.executor": "Run",
     "TestNG.APITesting_BDDStyleGET.test_GET_Req_NEGITVIE2.executor": "Run",
@@ -72,24 +74,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ApiIntegration">
-    <configuration name="APITestingPatch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ApiTesting.RestAssuredBasics.PATCH.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ApiTesting.RestAssuredBasics.PATCH" />
-      <option name="MAIN_CLASS_NAME" value="com.ApiTesting.RestAssuredBasics.PATCH.APITestingPatch" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.APITesting_001">
     <configuration name="APITestingPatch.test_put_non_Bdd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
@@ -102,6 +87,23 @@
       <option name="MAIN_CLASS_NAME" value="com.ApiTesting.RestAssuredBasics.PATCH.APITestingPatch" />
       <option name="METHOD_NAME" value="test_put_non_Bdd" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PayloadManagment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PayloadManagment" />
+      <option name="MAIN_CLASS_NAME" value="PayloadManagment.APITesting_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITesting_001" />
         <item itemvalue="TestNG.ApiIntegration" />
         <item itemvalue="TestNG.APITesting_NonBDDStyle.test_NonBDDStyleGET_Negative" />
         <item itemvalue="TestNG.C:/Users/r.singh/IdeaProjects/APIAutomationPrograms/testng.xml" />
         <item itemvalue="TestNG.APITestingPatch.test_put_non_Bdd" />
-        <item itemvalue="TestNG.APITestingPatch" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733144500254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Integration updated">
+      <option name="closed" value="true" />
+      <created>1733230728476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733230728476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Read me file updated" />
     <MESSAGE value="Non Bdd updated" />
     <MESSAGE value="Patch updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patch updated" />
+    <MESSAGE value="Integration updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
